@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Fredoka One', cursive;
+}
+
+.container{
+    width: 65%;
+    min-width: 680px;
+    max-width: 1145px;
+    margin: 0 auto;
+}
+
+#title{
+    color: #e4326e;
+    font-family: 'times new roman';
+    text-align: center;
+    padding-top: 1.5rem;
+}
+#style{
+    padding-top: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.structure{
+    float: left;
+    background-color: black;
+    margin-top: 1rem;
+    width: calc(90%/3);
+    height: 6.3rem;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.description{
+    padding-left: 1rem;
+    padding-top: 1rem;
+    color: white;
+}
+
+img{
+    width: 100px;
+}
+.float{
+    float: left;
+    
+}
